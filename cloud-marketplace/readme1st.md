@@ -1,10 +1,10 @@
-# DMZedge Server for Linux
+# Cornerstone MFT Server for Linux
 
-Thank you for choosing DMZedge Server.
+Thank you for choosing Cornerstone MFT Server.
 
 For the latest up-to-date information, please refer to our GitHub repo located at 
 
-https://github.com/southrivertech/dmzedge.pub/tree/main/cloud-marketplace
+https://github.com/southrivertech/cornerstone.pub/tree/main/cloud-marketplace
 
 
 
