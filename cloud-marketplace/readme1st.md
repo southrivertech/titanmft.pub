@@ -1,4 +1,4 @@
-# Cornerstone MFT Server for Linux
+# Cornerstone MFT Server - Cloud Edition
 
 Thank you for choosing Cornerstone MFT Server.
 
