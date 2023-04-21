@@ -8,6 +8,6 @@ This repo contains general utilities, scripts, and documentation helpful for wor
 - This folder contains general utilities, scripts and documentation specific to the Cloud Edition of Cornerstone MFT which is available as a PAYG solution in [Amazon AWS Marketplace](https://aws.amazon.com/marketplace/search/results/?searchTerms=cornerstone+mft&CREATOR=84e24cf6-1dd0-4cde-b93e-aa2870b106f2&filters=CREATOR), Azure, and the Google Cloud Marketplace
 
 ## [/docker](https://github.com/southrivertech/cornerstone.pub/tree/main/docker/win-x64)
-- Contains general utilities, scripts and other documentation specific for the Docker Edition of Cornerstone MFT available under a BYOL model. The Docker Edition of Cornestone MFT Server is available from [The Docker Hub](https://hub.docker.com/r/southrivertech)
+- Contains general utilities, scripts and other documentation specific for the Docker Edition of Cornerstone MFT available under a BYOL model. The Docker Edition of Cornestone MFT is available from [The Docker Hub](https://hub.docker.com/r/southrivertech)
 
 
