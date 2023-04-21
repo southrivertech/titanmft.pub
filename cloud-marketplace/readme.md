@@ -8,7 +8,7 @@ each Cloud Marketplace, there will be Windows and Linux versions of the product 
 ## Cornerstone MFT Server - Enterprise Cloud Edition (csent)
 
 The Enterprise Edition of Cornerstone been preconfigured with all features enabled.
-| [Linux 64-bit](https://github.com/southrivertech/cornerstone.pub/tree/main/cloud-marketplace/linux) | [Windows 64-bit](https://github.com/southrivertech/cornerstone.pub/tree/main/cloud-marketplace/win) |
+| [Linux 64-bit](https://github.com/southrivertech/cornerstone.pub/tree/main/cloud-marketplace/linux-x64) | [Windows 64-bit](https://github.com/southrivertech/cornerstone.pub/tree/main/cloud-marketplace/win-x64) |
 | -------- | ------- |
 
 
