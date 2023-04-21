@@ -1,6 +1,6 @@
 # <img src="https://southrivertech.com/software/nextgen/cornerstone/cornerstone48.png" alt="Cornerstone MFT logo"> Cornerstone MFT - Enterprise Cloud Edition for Windows</img>
 
-Thank you for choosing Cornerstone MFT - Cloud Edition from South River Technologies. This is the Pay-as-you-go version of our solution, meaning that it will run fully featured without the need to purchase a license from South River Technologies. Simply fire up your Cornerstone MFT VM, and run your business.
+Thank you for choosing Cornerstone MFT - Enterprise Cloud Edition from South River Technologies. This is the Pay-as-you-go version of our solution, meaning that it will run fully featured without the need to purchase a license from South River Technologies. Simply fire up your Cornerstone MFT VM, and run your business.
 
 ## What's on the VM?
 
