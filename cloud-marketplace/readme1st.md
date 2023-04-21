@@ -1,6 +1,6 @@
-# Cornerstone MFT Server - Cloud Edition
+# Cornerstone MFT - Cloud Edition
 
-Thank you for choosing Cornerstone MFT Server.
+Thank you for choosing Cornerstone MFT.
 
 For the latest up-to-date information, please refer to our GitHub repo located at 
 
