@@ -1,8 +1,8 @@
-# Cornerstone MFT - Cloud Edition
+# Cornerstone Managed File Transfer
 
-Thank you for choosing Cornerstone Managed File Transgfer.
+Thank you for choosing Cornerstone Managed File Transfer.
 
-For the latest up-to-date information, please refer to our GitHub repo located at 
+For the latest up-to-date information, please visit our GitHub repository located at 
 
 https://github.com/southrivertech/cornerstone.pub/tree/main/cloud-marketplace
 
