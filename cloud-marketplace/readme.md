@@ -7,7 +7,7 @@ each Cloud Marketplace you will find both Windows and Linux versions of the prod
 
 ## Cornerstone Managed File Transfer - Enterprise Edition
 
-The Enterprise Edition of Cornerstone been preconfigured with all features enabled.
+The Enterprise Edition of Cornerstone preconfigured with all currently available features and options
 | [Linux 64-bit](https://github.com/southrivertech/cornerstone.pub/tree/main/cloud-marketplace/linux-x64) | [Windows 64-bit](https://github.com/southrivertech/cornerstone.pub/tree/main/cloud-marketplace/win-x64) |
 | -------- | ------- |
 
