@@ -12,8 +12,13 @@ Cornerstone is a reverse proxy server that provides perimeter security for your 
 
 ## Getting Started
 
-To launch the Cornerstone Administrator UI point your browser to your VM's public url or IP address. The first time you run the Administrator it will prompt you to create a new Administrator account to allow configuring the Cornerstone MFT. 
+Once you have securely connected to the instance over SSH, the initial Cornerstone administrator account needs to be configured. To configure the Cornerstone administrator account, use the following command and supply your new administrator credentials. It's imporant to use a complex password.
 
+sudo /opt/southriver/Cornerstone/Cornerstone /LASINIT /username=`<admin-username>` /password=`<admin-password>`
+
+Once the Cornerstone administrative credentials have been established, you can now connect to the Cornerstone web-based admin console through your web-browser by pointing it to https://`<ipaddress>`:41443.
+
+Note that this is a secure connection. However, since Cornerstone is using a temporary certificate, you will see a security warning in the browser. Proceed past the security warning and log in to the Cornerstone Admin console. At this point you will be able to configure the Cornerstone application including adding your own TLS certificate.
 ## Configure Cornerstone for External access
 
 The Cornerstone MFT instance has been preconfigured for access from an external Cornerstone server via port 45100. The public ports that Cornerstone will proxy to the Cornerstone Server will configured on your Cornerstone server but you will need to make sure the cloud provider firewall will allow those external ports through. For example, the Cornerstone server may wish for the Cornerstone MFT to publicly listen on port 2200 for SFTP connections. In this case you will need to configure the cloud provider to allow inbound connections on port 2200 as well as the cloud provider firewall settings.
