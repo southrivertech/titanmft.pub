@@ -1,4 +1,4 @@
-# <img src="https://southrivertech.com/software/nextgen/titanmft/titanmft48.png" alt="Titan MFT logo"> Titan MFT - Enterprise Cloud Edition  for Linux</img>
+# <img src="https://srtcdnstorage.blob.core.windows.net/software/nextgen/titanmft/titanmft48.png" alt="Titan MFT logo"> Titan MFT - Enterprise Cloud Edition  for Linux</img>
 
 Thank you for choosing Titan MFT - Cloud Edition from South River Technologies. This is the Pay-as-you-go version of our solution, meaning that it will run fully featured without the need to purchase a license from South River Technologies. Simply fire up your Titan MFT VM, and run your business.
 
