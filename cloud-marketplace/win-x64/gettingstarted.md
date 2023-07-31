@@ -1,4 +1,4 @@
-# <img src="https://southrivertech.com/software/nextgen/titanmft/titanmft48.png" alt="Titan MFT logo"> Titan Managed File Transfer (MFT) for Windows</img>
+# <img src="https://srtcdnstorage.blob.core.windows.net/software/nextgen/titanmft/titanmft48.png" alt="Titan MFT logo"> Titan Managed File Transfer (MFT) for Windows</img>
 
 Thank you for choosing Titan Managed File Transfer (MFT) - Enterprise Cloud Edition from South River Technologies. This is the Pay-as-you-go version of our solution, meaning that it will run fully featured without the need to purchase a license. Simply fire up your Titan MFT VM and run your business.
 
