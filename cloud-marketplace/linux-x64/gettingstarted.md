@@ -1,47 +1,42 @@
-# <img src="https://southrivertech.com/software/nextgen/cornerstone/cornerstone48.png" alt="Cornerstone MFT logo"> Cornerstone MFT - Enterprise Cloud Edition  for Linux</img>
+# <img src="https://southrivertech.com/software/nextgen/titanmft/titanmft48.png" alt="Titan MFT logo"> Titan MFT - Enterprise Cloud Edition  for Linux</img>
 
-Thank you for choosing Cornerstone MFT - Cloud Edition from South River Technologies. This is the Pay-as-you-go version of our solution, meaning that it will run fully featured without the need to purchase a license from South River Technologies. Simply fire up your Cornerstone MFT VM, and run your business.
+Thank you for choosing Titan MFT - Cloud Edition from South River Technologies. This is the Pay-as-you-go version of our solution, meaning that it will run fully featured without the need to purchase a license from South River Technologies. Simply fire up your Titan MFT VM, and run your business.
 
 ## What's on the VM?
 
-This Cornerstone MFT Virtual Machine (VM) contains a pre-built and pre-configured installation of the product. 
+This Titan MFT Virtual Machine (VM) contains a pre-built and pre-configured installation of the product. 
 
-## Features of Cornerstone MFT
+## Features of Titan MFT
 
-Cornerstone is a reverse proxy server that provides perimeter security for your Cornerstone implementation. Enabling you to close ports on your firewall, Cornerstone dynamically opens outbound ports to communicate with Cornerstone. User requests are sent by the Cornerstone MFT to Cornerstone as a response on the dynamically opened channel. Working exclusively as a passthrough, no data is ever stored on or outside your firewall.
+Titan MFT is a reverse proxy server that provides perimeter security for your Titan MFT implementation. Enabling you to close ports on your firewall, Titan MFT dynamically opens outbound ports to communicate with Cornerstone. User requests are sent by the Titan MFT to Titan MFT as a response on the dynamically opened channel. Working exclusively as a passthrough, no data is ever stored on or outside your firewall.
 
 ## Getting Started
 
-Once you have securely connected to the instance over SSH, the initial Cornerstone administrator account needs to be configured. To configure the Cornerstone administrator account, use the following command and supply your new administrator credentials. It's imporant to use a complex password.
+Once you have securely connected to the instance over SSH, the initial Titan MFT administrator account needs to be configured. To configure the Titan MFT administrator account, use the following command and supply your new administrator credentials. It's imporant to use a complex password.
 
-sudo /opt/southriver/Cornerstone/Cornerstone /LASINIT /username=`<admin-username>` /password=`<admin-password>`
+sudo /opt/southriver/titanmft/srxtitan /LASINIT /username=`<admin-username>` /password=`<admin-password>`
 
-Once the Cornerstone administrative credentials have been established, you can now connect to the Cornerstone web-based admin console through your web-browser by pointing it to https://`<ipaddress>`:41443.
+Once the Titan MFT administrative credentials have been established, you can now connect to the Titan MFT web-based admin console through your web-browser by pointing it to https://`<ipaddress>`:41443.
 
-Note that this is a secure connection. However, since Cornerstone is using a temporary certificate, you will see a security warning in the browser. Proceed past the security warning and log in to the Cornerstone Admin console. At this point you will be able to configure the Cornerstone application including adding your own TLS certificate.
-## Configure Cornerstone for External access
+Note that this is a secure connection. However, since Titan MFT is using a temporary certificate, you will see a security warning in the browser. Proceed past the security warning and log in to the Titan MFT Admin console. At this point you will be able to configure the Titan MFT application including adding your own TLS certificate.
+## Configure Titan MFT for External access
 
-The Cornerstone MFT instance has been preconfigured for access from an external Cornerstone server via port 45100. The public ports that Cornerstone will proxy to the Cornerstone Server will configured on your Cornerstone server but you will need to make sure the cloud provider firewall will allow those external ports through. For example, the Cornerstone server may wish for the Cornerstone MFT to publicly listen on port 2200 for SFTP connections. In this case you will need to configure the cloud provider to allow inbound connections on port 2200 as well as the cloud provider firewall settings.
+The Titan MFT instance has been preconfigured for access from an external Titan MFT server via port 45100. The public ports that Titan MFT will proxy to the Titan MFT Server will configured on your Titan MFT server but you will need to make sure the cloud provider firewall will allow those external ports through. For example, the Titan MFT server may wish for the Titan MFT to publicly listen on port 2200 for SFTP connections. In this case you will need to configure the cloud provider to allow inbound connections on port 2200 as well as the cloud provider firewall settings.
 
-- `Port Setup` - Cornerstone services are running behind both a Windows Firewall and the main Azure/AWS firewall. Your cloud provider will issue a public IP address, or DNS name, for your VM. In order for Cornerstone services to function properly, Cornerstone must be configured with the External IP address of the router/firewall.
+- `Port Setup` - Titan MFT services are running behind both a Windows Firewall and the main Azure/AWS firewall. Your cloud provider will issue a public IP address, or DNS name, for your VM. In order for Titan MFT services to function properly, Titan MFT must be configured with the External IP address of the router/firewall.
 
-- `Private IP Address` - set this to the desired listening IP address where Cornerstone will connect to the Cornerstone MFT.
+- `Private IP Address` - set this to the desired listening IP address where Titan MFT will connect to the Titan MFT.
 
-- `Public IP Address` - set this to the desired public IP address issued by your cloud provider for external connections to be proxied to the Cornerstone server.
+- `Public IP Address` - set this to the desired public IP address issued by your cloud provider for external connections to be proxied to the Titan MFT server.
 
 ## Tech Support
 
-Complimentary technical support is available on our website at https://helpdesk.cornerstonemft.com (use CornerstonePAYG as your registration code)
+Complimentary technical support is available on our website at https://helpdesk.titanmft.com (use TitanMftPAYG as your registration code)
 
 ## WebSite(s)
 
-South River Technologies corporate WebSite:  [https://www.SouthRiverTechnologies.com](https://www.SouthRiverTechnologies.com)<br />
-Cornerstone MFT (Enterprise grade Managed File Transfer Solution): [https://www.CornerstoneMFT.com](https://www.cornerstonemft.com)<br />
-DMZedge Server (Secure reverse proxy server for Cornerstone MFT): [https://www.dmzedge.com](https://www.dmzedge.com)<br />
-Titan SFTP Server micro site: [https://www.titanftp.com](https://www.titanftp.com)<br />
+South River Technologies corporate WebSite:  [https://www.southrivertech.com](https://www.southrivertech.com)<br />
+Titan MFT (Enterprise grade Managed File Transfer Solution): [https://www.TitanMFT.com](https://www.TitanMFT.com)<br />
+Titan DMZ Server (Secure reverse proxy server for Titan MFT): [https://www.TitanDMZ.com](https://www.TitanDMZ.com)<br />
+Titan SFTP Server micro site: [https://www.TitanFTP.com](https://www.TitanFTP.com)<br />
 WebDrive (Virtual Drive Mapping Client): [https://www.WebDrive.com](https://www.webdrive.com)<br />
-
-
-
-
-

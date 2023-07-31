@@ -1,4 +1,4 @@
-param($hostName='myhost',$arch='windows',$repo="southrivertech",$image="cornerstone", $tagName="latest")
+param($hostName='myhost',$arch='windows',$repo="southrivertech",$image="titanmft", $tagName="latest")
 
 # 
 # Sample script file
