@@ -6,6 +6,19 @@ Thank you for choosing Titan Managed File Transfer (MFT) - Enterprise Cloud Edit
 
 This Titan MFT Server Virtual Machine (VM) contains a pre-built and pre-configured installation of the product. All bells and whistles are available for you to utilize and a sample server instance called Default Server has already been configured with FTP/S, SFTP, HTTP/S and WebDAV/S services enabled. There is also a test user for logging in to the system. NOTE: It is strongly recommended that you change the credentials of the test user immediately.
 
+## Getting Started
+
+Once you have securely connected to the instance over SSH, the initial Titan MFT administrator account needs to be configured. To configure the Titan MFT administrator account, use the following command and supply your new administrator credentials. It's imporant to use a complex password consisting of a minimum of 8 characters in length, both upper and lower case, one or more numbers, and one or more special characters consisting of the following characters "(~!@#$%^&*_-+=`|\\(){}[]:;\"'<>,.?/)"
+
+```
+sudo /opt/southriver/titanmft/srxtitan /LASINIT /username=`<admin-username>` /password=`<admin-password>`
+```
+
+Once the Titan MFT administrative credentials have been established, you can now connect to the Titan MFT web-based admin console through your web-browser by pointing it to https://`<ipaddress>`:41443.
+
+Note that this is a secure connection. However, since Titan MFT is using a temporary certificate, you will see a security warning in the browser. Proceed past the security warning and log in to the Titan MFT Admin console. At this point you will be able to configure the Titan MFT application including adding your own TLS certificate.
+
+
 ## Features of Titan Managed File Transfer
 
 Titan MFT Cloud Edition is a cloud optimized version of our award winning Titan MFT Server (Managed File Transfer) deployed by on-premises customers world wide for nearly 20 years.
@@ -33,16 +46,6 @@ Some of the features of Titan MFT which are available include:
 - `PGP File Encryption` - CS supports full file encryption at rest with PGP. See the Titan MFT Admin guide included with the product for more information
   on PGP features and functionality
 - Many more features are available; see the Titan MFT Admin Guide.
-
-## Getting Started
-
-Once you have securely connected to the instance over SSH, the initial Titan MFT administrator account needs to be configured. To configure the Titan MFT administrator account, use the following command and supply your new administrator credentials. It's imporant to use a complex password.
-
-sudo /opt/southriver/titanmft/srxtitan /LASINIT /username=`<admin-username>` /password=`<admin-password>`
-
-Once the Titan MFT administrative credentials have been established, you can now connect to the Titan MFT web-based admin console through your web-browser by pointing it to https://`<ipaddress>`:41443.
-
-Note that this is a secure connection. However, since Titan MFT is using a temporary certificate, you will see a security warning in the browser. Proceed past the security warning and log in to the Titan MFT Admin console. At this point you will be able to configure the Titan MFT application including adding your own TLS certificate.
 
 ## Configure Titan MFT for External access
 
