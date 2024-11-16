@@ -4,7 +4,7 @@ Thank you for choosing Titan Managed File Transfer (MFT) - Enterprise Cloud Edit
 
 ## What's on the VM?
 
-This Titan MFT Server Virtual Machine (VM) contains a pre-built and pre-configured installation of the product. All bells and whistles are available for you to utilize and a sample server instance called Default Server has already been configured with FTP/S, SFTP, HTTP/S and WebDAV/S services enabled. There is also a test user for logging in to the system. NOTE: It is strongly recommended that you change the credentials of the test user immediately.
+This Titan MFT Server Virtual Machine (VM) contains a pre-built and pre-configured installation of the product. All bells and whistles are available for you to utilize and a sample server instance called Default Server has already been configured with FTP/S, SFTP, HTTP/S and WebDAV/S services enabled. There is also a test user for logging in to the system however the user account is disabled by default so you will need to edit the user and enable the account before you can login. NOTE: It is strongly recommended that you change the credentials of the test user immediately.
 
 ## Features of Titan Managed File Transfer
 
