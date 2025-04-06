@@ -47,20 +47,6 @@ Some of the features of Titan MFT which are available include:
   on PGP features and functionality
 - Many more features are available; see the Titan MFT Admin Guide.
 
-## Configure Titan MFT for External access
-
-The Test Server instance has been preconfigured for local access. You can access the server using the Localhost, internal IP address, or windows PC name. SFTP services are available on port 2200. Once you have performed initial testing using the internal access points and the default 'test' username, you are ready to configure the system for access from the outside.
-
-1. Expand the Titan MFT Domains node in the tree, and then expand the Default Server Server Instance.
-2. Select the Users node from the tree, click the “+” icon on the right hand side to create a new user. Follow the New User Wizard to add a new user to the system.
-
-   > NOTE: once you create a new user, it is recommended that the test user account is disabled and/or deleted for security purposes.
-
-3. Select the Services node located in the tree just below the Default Server node. Along the right side of the screen will be the list of services. Select "SSH/SFTP". Using the Host Key Management utility, create a new distinct host key for your new server. While Titan MFT comes pre-configured with a stock host key, this key is for testing only and should never be used in a production environment. Once you have the new key created, delete the test key.
-4. Firewall Setup – Cornerstone's services are running behind both a local Firewall and the main Cloud firewall. Your cloud provider will issue a public IP address, or DNS name, for your VM. In order for Titan MFT services to function properly, Titan MFT must be configured with the External IP address of the router/firewall. This value is set on the Server Advanced tab under the Default Server node in the Titan MFT Admin Console. Replace the placeholder value with your valid IP address.
-
-At this point, the general configurations are complete and the test user should be able to login using any industry standard SFTP, WebDAV, or FTP/S client.  Please see the Titan MFT help file for any specific settings/configuration requirements as well as how to use the new server creation wizard to generate a new, customer specific server instance.
-
 ## Notes
 
 - `HTTP/S and FTP/S Services` – The server has been tested against both the DigiCert.com and SslLabs.com TLS security vulnerability scanner and passed. This Windows Server image has been hardened with 3DES, SHA1, TLS 1.0 and other weak ciphers being disabled.
