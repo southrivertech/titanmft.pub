@@ -14,7 +14,7 @@ This Titan MFT Server Virtual Machine (VM) contains a pre-built and pre-configur
 ```
 sudo /opt/southriver/titanmft/srxtitan /LASINIT /username='<admin-username>' /password='<admin-password>'
 ```
-3) After the password hase been created you can hit control-c to return to the shell.
+3) After the password hase been created you can hit control+c to return to the shell.
 4) Once the Titan MFT administrative credentials have been established, you can now connect to the Titan MFT web-based admin console through your web-browser by pointing it to https://`<ipaddress>`:41443. Note that this is a secure connection. However, since Titan MFT is using a temporary certificate, you will see a security warning in the browser. Proceed past the security warning and log in to the Titan MFT Admin console. At this point you will be able to configure the Titan MFT application including adding your own TLS certificate.
 
 
