@@ -6,6 +6,10 @@ Thank you for choosing Titan Managed File Transfer (MFT) - Enterprise Cloud Edit
 
 This Titan MFT Server Virtual Machine (VM) contains a pre-built and pre-configured installation of the product. All bells and whistles are available for you to utilize and a sample server instance called Default Server has already been configured with FTP/S, SFTP, HTTP/S and WebDAV/S services enabled. There is also a test user for logging in to the system however the user account is disabled by default so you will need to edit the user and enable the account before you can login. NOTE: It is strongly recommended that you change the credentials of the test user immediately.
 
+## Getting Started
+
+To launch the Titan SFTP Administrator click on the Titan SFTP Server desktop icon which will launch the browser and connect to the default localhost admin port of 31443. The first time you run the Administrator it will prompt you to create a new Administrator account to allow configuring the server.
+
 ## Features of Titan Managed File Transfer
 
 Titan MFT Cloud Edition is a cloud optimized version of our award winning Titan MFT Server (Managed File Transfer) deployed by on-premises customers world wide for nearly 20 years.
@@ -34,11 +38,6 @@ Some of the features of Titan MFT which are available include:
   on PGP features and functionality
 - Many more features are available; see the Titan MFT Admin Guide.
 
-## Getting Started
-
-To launch the Titan MFT Administrator UI point your browser to your VM's private url or IP address and use port 31443, e.g. https://yourdomain.com:31443 The WebUI is using a non-CA validated test certificate. While you will be able to connect, you may see a warning about the invalid certificate. This it completely normal and will go away when you replace your test certificate with a valid certificate from a CA
-
-The first time you run the Administrator it will prompt you to create a new Administrator account to allow configuring the server.
 
 ## Configure Titan MFT for External access
 
