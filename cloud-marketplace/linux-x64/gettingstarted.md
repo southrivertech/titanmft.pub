@@ -33,7 +33,7 @@ Some of the features of Titan MFT which are available include:
 
 ## Tech Support
 
-Complimentary technical support is available on our website at https://helpdesk.titanmft.com (use TitanMftPAYG as your registration code)
+Explorer suppot options at https://www.southrivertech.com/support
 
 ## WebSite(s)
 
