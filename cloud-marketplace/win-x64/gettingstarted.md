@@ -26,7 +26,7 @@ Some of the features of Titan MFT which are available include:
 
 ## Tech Support
 
-Complimentary technical support is available on our website at https://helpdesk.titanmft.com (use TitanMftPayg as your registration code)
+Explorer support options on our website at https://www.southrivertech.com/support
 
 ## WebSite(s)
 
@@ -35,4 +35,5 @@ Titan MFT (Enterprise grade Managed File Transfer Solution): [https://www.TitanM
 Titan DMZ Server (Secure reverse proxy server for Titan MFT): [https://www.TitanDMZ.com](https://www.TitanDMZ.com)<br />
 Titan SFTP Server micro site: [https://www.TitanFTP.com](https://www.TitanFTP.com)<br />
 WebDrive (Virtual Drive Mapping Client): [https://www.WebDrive.com](https://www.webdrive.com)<br />
+
 
